@@ -5,7 +5,10 @@ public class Singleton5 {
 
     private static Singleton5 instance;
 
+    int value;
+
     private Singleton5() {
+        this.value = 10;
     }
 
     public static Singleton5 getInstance() {
