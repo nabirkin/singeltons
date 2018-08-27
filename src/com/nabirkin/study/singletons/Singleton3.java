@@ -1,6 +1,12 @@
 package com.nabirkin.study.singletons;
 
-
+/**
+ *
+ * Initialization on Demand Holder
+ * Threadsafe, not lazy
+ * but there isn't availability to handle exceptions in the constructor
+ *
+ */
 public class Singleton3 {
 
 

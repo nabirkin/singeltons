@@ -1,6 +1,11 @@
 package com.nabirkin.study.singletons;
 
-
+/**
+ *
+ * Threadsafe and not lazy, but slow.
+ * We need the synchronize block only once.
+ *
+ */
 public class Singleton4 {
 
     private static Singleton4 instance;

@@ -1,6 +1,8 @@
 package com.nabirkin.study.singletons;
 
-
+/**
+ * Doesn't work in multi-thread env
+ */
 public class Singleton1 {
 
     private static Singleton1 instance;

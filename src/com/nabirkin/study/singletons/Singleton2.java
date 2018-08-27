@@ -1,6 +1,8 @@
 package com.nabirkin.study.singletons;
 
-
+/**
+ * It's not lazy;
+ */
 public class Singleton2 {
 
     private static Singleton2 instance = new Singleton2();
